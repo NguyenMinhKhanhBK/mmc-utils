@@ -58,6 +58,7 @@
 int read_extcsd(int fd, __u8 *ext_csd)
 {
     fprintf(stdout, "%s %d Khanhnguyen\n", __func__, __LINE__)
+    fprintf(stderr, "Khanhnguyen read extcsd\n")
 	int ret = 0;
 	struct mmc_ioc_cmd idata;
 	memset(&idata, 0, sizeof(idata));
