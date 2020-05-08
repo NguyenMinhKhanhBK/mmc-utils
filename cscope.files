@@ -1,0 +1,9 @@
+/home/khanhnguyen/mmc-utils/lsmmc.c
+/home/khanhnguyen/mmc-utils/3rdparty/hmac_sha/hmac_sha2.c
+/home/khanhnguyen/mmc-utils/3rdparty/hmac_sha/sha2.c
+/home/khanhnguyen/mmc-utils/3rdparty/hmac_sha/sha2.h
+/home/khanhnguyen/mmc-utils/3rdparty/hmac_sha/hmac_sha2.h
+/home/khanhnguyen/mmc-utils/mmc_cmds.c
+/home/khanhnguyen/mmc-utils/mmc.h
+/home/khanhnguyen/mmc-utils/mmc.c
+/home/khanhnguyen/mmc-utils/mmc_cmds.h

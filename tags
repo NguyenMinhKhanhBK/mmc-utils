@@ -1,0 +1,487 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADVANCED_HELP	mmc.c	32;"	d	file:
+AM_CFLAGS	Makefile	/^AM_CFLAGS = -D_FILE_OFFSET_BITS=64 -D_FORTIFY_SOURCE=2$/;"	m
+BASIC_HELP	mmc.c	31;"	d	file:
+BITS	lsmmc.c	54;"	d	file:
+BKOPS_ENABLE	mmc.h	131;"	d
+CC	Makefile	/^CC ?= gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS ?= -g -O2$/;"	m
+CH	3rdparty/hmac_sha/sha2.c	49;"	d	file:
+CHECKFLAGS	Makefile	/^CHECKFLAGS = -Wall -Werror -Wuninitialized -Wundef$/;"	m
+CID	lsmmc.c	/^	CID = 0,$/;"	e	enum:REG_TYPE	file:
+CSD	lsmmc.c	/^	CSD,$/;"	e	enum:REG_TYPE	file:
+Command	mmc.c	/^struct Command {$/;"	s	file:
+CommandFunction	mmc.c	/^typedef int (*CommandFunction)(int argc, char **argv);$/;"	t	file:
+DEPFLAGS	Makefile	/^DEPFLAGS = -Wp,-MMD,$(@D)\/.$(@F).d,-MT,$@$/;"	m
+DO_IO	mmc_cmds.c	1844;"	d	file:
+EN_REL_WR	mmc.h	126;"	d
+EXT_CSD	lsmmc.c	/^	EXT_CSD,$/;"	e	enum:REG_TYPE	file:
+EXT_CSD_BKOPS_EN	mmc.h	83;"	d
+EXT_CSD_BKOPS_SUPPORT	mmc.h	43;"	d
+EXT_CSD_BOOT_BUS_CONDITIONS	mmc.h	75;"	d
+EXT_CSD_BOOT_CFG	mmc.h	73;"	d
+EXT_CSD_BOOT_CFG_ACC	mmc.h	155;"	d
+EXT_CSD_BOOT_CFG_ACK	mmc.h	153;"	d
+EXT_CSD_BOOT_CFG_EN	mmc.h	154;"	d
+EXT_CSD_BOOT_INFO	mmc.h	64;"	d
+EXT_CSD_BOOT_INFO_ALT	mmc.h	152;"	d
+EXT_CSD_BOOT_INFO_DDR_DDR	mmc.h	151;"	d
+EXT_CSD_BOOT_INFO_HS_MODE	mmc.h	150;"	d
+EXT_CSD_BOOT_WP	mmc.h	77;"	d
+EXT_CSD_BOOT_WP_B_PERM_WP_DIS	mmc.h	147;"	d
+EXT_CSD_BOOT_WP_B_PERM_WP_EN	mmc.h	148;"	d
+EXT_CSD_BOOT_WP_B_PWR_WP_DIS	mmc.h	146;"	d
+EXT_CSD_BOOT_WP_B_PWR_WP_EN	mmc.h	149;"	d
+EXT_CSD_CACHE_CTRL	mmc.h	115;"	d
+EXT_CSD_CACHE_SIZE_0	mmc.h	63;"	d
+EXT_CSD_CACHE_SIZE_1	mmc.h	62;"	d
+EXT_CSD_CACHE_SIZE_2	mmc.h	61;"	d
+EXT_CSD_CACHE_SIZE_3	mmc.h	60;"	d
+EXT_CSD_CMDQ_DEPTH	mmc.h	50;"	d
+EXT_CSD_CMDQ_MODE_EN	mmc.h	120;"	d
+EXT_CSD_CMDQ_SUPPORT	mmc.h	51;"	d
+EXT_CSD_CMD_SET_NORMAL	mmc.h	145;"	d
+EXT_CSD_CONFIG_SECRM_TYPE	mmc.h	136;"	d
+EXT_CSD_DATA_SECTOR_SIZE	mmc.h	112;"	d
+EXT_CSD_DEVICE_LIFE_TIME_EST_TYP_A	mmc.h	57;"	d
+EXT_CSD_DEVICE_LIFE_TIME_EST_TYP_B	mmc.h	56;"	d
+EXT_CSD_ENH_1	mmc.h	170;"	d
+EXT_CSD_ENH_2	mmc.h	169;"	d
+EXT_CSD_ENH_3	mmc.h	168;"	d
+EXT_CSD_ENH_4	mmc.h	167;"	d
+EXT_CSD_ENH_ATTRIBUTE_EN	mmc.h	166;"	d
+EXT_CSD_ENH_SIZE_MULT_0	mmc.h	105;"	d
+EXT_CSD_ENH_SIZE_MULT_1	mmc.h	104;"	d
+EXT_CSD_ENH_SIZE_MULT_2	mmc.h	103;"	d
+EXT_CSD_ENH_START_ADDR_0	mmc.h	109;"	d
+EXT_CSD_ENH_START_ADDR_1	mmc.h	108;"	d
+EXT_CSD_ENH_START_ADDR_2	mmc.h	107;"	d
+EXT_CSD_ENH_START_ADDR_3	mmc.h	106;"	d
+EXT_CSD_ENH_USR	mmc.h	171;"	d
+EXT_CSD_ERASE_GROUP_DEF	mmc.h	76;"	d
+EXT_CSD_EXT_PARTITIONS_ATTRIBUTE_0	mmc.h	114;"	d
+EXT_CSD_EXT_PARTITIONS_ATTRIBUTE_1	mmc.h	113;"	d
+EXT_CSD_FFU	mmc.h	141;"	d
+EXT_CSD_FFU_ARG_0	mmc.h	49;"	d
+EXT_CSD_FFU_ARG_1	mmc.h	48;"	d
+EXT_CSD_FFU_ARG_2	mmc.h	47;"	d
+EXT_CSD_FFU_ARG_3	mmc.h	46;"	d
+EXT_CSD_FFU_FEATURES	mmc.h	45;"	d
+EXT_CSD_FFU_INSTALL	mmc.h	138;"	d
+EXT_CSD_FFU_MODE	mmc.h	139;"	d
+EXT_CSD_FFU_STATUS	mmc.h	118;"	d
+EXT_CSD_FIRMWARE_VERSION	mmc.h	59;"	d
+EXT_CSD_FW_CONFIG	mmc.h	79;"	d
+EXT_CSD_GP_SIZE_MULT_1_0	mmc.h	102;"	d
+EXT_CSD_GP_SIZE_MULT_1_1	mmc.h	101;"	d
+EXT_CSD_GP_SIZE_MULT_1_2	mmc.h	100;"	d
+EXT_CSD_GP_SIZE_MULT_2_0	mmc.h	99;"	d
+EXT_CSD_GP_SIZE_MULT_2_1	mmc.h	98;"	d
+EXT_CSD_GP_SIZE_MULT_2_2	mmc.h	97;"	d
+EXT_CSD_GP_SIZE_MULT_3_0	mmc.h	96;"	d
+EXT_CSD_GP_SIZE_MULT_3_1	mmc.h	95;"	d
+EXT_CSD_GP_SIZE_MULT_3_2	mmc.h	94;"	d
+EXT_CSD_GP_SIZE_MULT_4_0	mmc.h	93;"	d
+EXT_CSD_GP_SIZE_MULT_4_1	mmc.h	92;"	d
+EXT_CSD_GP_SIZE_MULT_4_2	mmc.h	91;"	d
+EXT_CSD_HC_ERASE_GRP_SIZE	mmc.h	65;"	d
+EXT_CSD_HC_WP_GRP_SIZE	mmc.h	66;"	d
+EXT_CSD_HPI_FEATURE	mmc.h	42;"	d
+EXT_CSD_HPI_IMPL	mmc.h	144;"	d
+EXT_CSD_HPI_SUPP	mmc.h	143;"	d
+EXT_CSD_HW_RESET_DIS	mmc.h	158;"	d
+EXT_CSD_HW_RESET_EN	mmc.h	157;"	d
+EXT_CSD_MAX_ENH_SIZE_MULT_0	mmc.h	88;"	d
+EXT_CSD_MAX_ENH_SIZE_MULT_1	mmc.h	87;"	d
+EXT_CSD_MAX_ENH_SIZE_MULT_2	mmc.h	86;"	d
+EXT_CSD_MODE_CONFIG	mmc.h	116;"	d
+EXT_CSD_MODE_OPERATION_CODES	mmc.h	117;"	d
+EXT_CSD_NATIVE_SECTOR_SIZE	mmc.h	110;"	d
+EXT_CSD_NORMAL_MODE	mmc.h	140;"	d
+EXT_CSD_NUM_OF_FW_SEC_PROG_0	mmc.h	55;"	d
+EXT_CSD_NUM_OF_FW_SEC_PROG_1	mmc.h	54;"	d
+EXT_CSD_NUM_OF_FW_SEC_PROG_2	mmc.h	53;"	d
+EXT_CSD_NUM_OF_FW_SEC_PROG_3	mmc.h	52;"	d
+EXT_CSD_PARTITIONING_EN	mmc.h	165;"	d
+EXT_CSD_PARTITIONING_SUPPORT	mmc.h	85;"	d
+EXT_CSD_PARTITIONS_ATTRIBUTE	mmc.h	89;"	d
+EXT_CSD_PARTITION_SETTING_COMPLETED	mmc.h	90;"	d
+EXT_CSD_PART_CONFIG	mmc.h	74;"	d
+EXT_CSD_PART_CONFIG_ACC_ACK	mmc.h	164;"	d
+EXT_CSD_PART_CONFIG_ACC_BOOT0	mmc.h	161;"	d
+EXT_CSD_PART_CONFIG_ACC_BOOT1	mmc.h	162;"	d
+EXT_CSD_PART_CONFIG_ACC_MASK	mmc.h	159;"	d
+EXT_CSD_PART_CONFIG_ACC_NONE	mmc.h	160;"	d
+EXT_CSD_PART_CONFIG_ACC_USER_AREA	mmc.h	163;"	d
+EXT_CSD_PART_SWITCH_TIME	mmc.h	71;"	d
+EXT_CSD_PRE_EOL_INFO	mmc.h	58;"	d
+EXT_CSD_REV	mmc.h	72;"	d
+EXT_CSD_REV_V4_0	mmc.h	179;"	d
+EXT_CSD_REV_V4_1	mmc.h	178;"	d
+EXT_CSD_REV_V4_2	mmc.h	177;"	d
+EXT_CSD_REV_V4_3	mmc.h	176;"	d
+EXT_CSD_REV_V4_4_1	mmc.h	175;"	d
+EXT_CSD_REV_V4_5	mmc.h	174;"	d
+EXT_CSD_REV_V5_0	mmc.h	173;"	d
+EXT_CSD_REV_V5_1	mmc.h	172;"	d
+EXT_CSD_RST_N_EN_MASK	mmc.h	156;"	d
+EXT_CSD_RST_N_FUNCTION	mmc.h	84;"	d
+EXT_CSD_SANITIZE_START	mmc.h	82;"	d
+EXT_CSD_SECURE_REMOVAL_TYPE	mmc.h	119;"	d
+EXT_CSD_SEC_COUNT_0	mmc.h	70;"	d
+EXT_CSD_SEC_COUNT_1	mmc.h	69;"	d
+EXT_CSD_SEC_COUNT_2	mmc.h	68;"	d
+EXT_CSD_SEC_COUNT_3	mmc.h	67;"	d
+EXT_CSD_SUPPORTED_MODES	mmc.h	44;"	d
+EXT_CSD_SUPPORTED_SECRM_TYPE	mmc.h	137;"	d
+EXT_CSD_S_CMD_SET	mmc.h	41;"	d
+EXT_CSD_UPDATE_DISABLE	mmc.h	142;"	d
+EXT_CSD_USER_WP	mmc.h	78;"	d
+EXT_CSD_USE_NATIVE_SECTOR	mmc.h	111;"	d
+EXT_CSD_WR_REL_PARAM	mmc.h	81;"	d
+EXT_CSD_WR_REL_SET	mmc.h	80;"	d
+FLAGS	Makefile	/^override CFLAGS := $(CHECKFLAGS) $(AM_CFLAGS) $(CFLAGS)$/;"	m
+HMAC_SHA2_H	3rdparty/hmac_sha/hmac_sha2.h	39;"	d
+HS_CTRL_REL	mmc.h	125;"	d
+IDS_MAX	lsmmc.c	55;"	d	file:
+INSTALL	Makefile	/^INSTALL = install$/;"	m
+LIBS	Makefile	/^LIBS=$/;"	m
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE := mmc_utils$/;"	m
+LOCAL_MODULE_PATH	Android.mk	/^LOCAL_MODULE_PATH := $(TARGET_OUT_DATA)\/mmc-utils$/;"	m
+LOCAL_MODULE_TAGS	Android.mk	/^LOCAL_MODULE_TAGS := optional$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH:= $(call my-dir)$/;"	m
+LOCAL_SHARED_LIBRARIES	Android.mk	/^LOCAL_SHARED_LIBRARIES := libcutils libc$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES:= mmc.c mmc_cmds.c$/;"	m
+MAJ	3rdparty/hmac_sha/sha2.c	50;"	d	file:
+MASK	lsmmc.c	53;"	d	file:
+MASKTOBIT0	lsmmc.c	51;"	d	file:
+MMC_BLOCK_MAJOR	mmc.h	23;"	d
+MMC_CLEAR_WRITE_PROT	mmc.h	35;"	d
+MMC_CMD_AC	mmc.h	189;"	d
+MMC_CMD_ADTC	mmc.h	190;"	d
+MMC_READ_MULTIPLE_BLOCK	mmc.h	31;"	d
+MMC_RPMB_READ	mmc_cmds.c	/^	MMC_RPMB_READ      = 0x04,$/;"	e	enum:rpmb_op_type	file:
+MMC_RPMB_READ_CNT	mmc_cmds.c	/^	MMC_RPMB_READ_CNT  = 0x02,$/;"	e	enum:rpmb_op_type	file:
+MMC_RPMB_READ_RESP	mmc_cmds.c	/^	MMC_RPMB_READ_RESP = 0x05$/;"	e	enum:rpmb_op_type	file:
+MMC_RPMB_WRITE	mmc_cmds.c	/^	MMC_RPMB_WRITE     = 0x03,$/;"	e	enum:rpmb_op_type	file:
+MMC_RPMB_WRITE_KEY	mmc_cmds.c	/^	MMC_RPMB_WRITE_KEY = 0x01,$/;"	e	enum:rpmb_op_type	file:
+MMC_RSP_136	mmc.h	184;"	d
+MMC_RSP_BUSY	mmc.h	186;"	d
+MMC_RSP_CRC	mmc.h	185;"	d
+MMC_RSP_OPCODE	mmc.h	187;"	d
+MMC_RSP_PRESENT	mmc.h	183;"	d
+MMC_RSP_R1	mmc.h	198;"	d
+MMC_RSP_R1B	mmc.h	199;"	d
+MMC_RSP_SPI_BUSY	mmc.h	193;"	d
+MMC_RSP_SPI_R1	mmc.h	195;"	d
+MMC_RSP_SPI_R1B	mmc.h	196;"	d
+MMC_RSP_SPI_S1	mmc.h	192;"	d
+MMC_SEND_EXT_CSD	mmc.h	27;"	d
+MMC_SEND_STATUS	mmc.h	28;"	d
+MMC_SEND_WRITE_PROT_TYPE	mmc.h	36;"	d
+MMC_SET_WRITE_PROT	mmc.h	34;"	d
+MMC_SWITCH	mmc.h	26;"	d
+MMC_SWITCH_MODE_WRITE_BYTE	mmc.h	30;"	d
+MMC_VERSION	mmc.c	29;"	d	file:
+MMC_WRITE_BLOCK	mmc.h	32;"	d
+MMC_WRITE_MULTIPLE_BLOCK	mmc.h	33;"	d
+PACK32	3rdparty/hmac_sha/sha2.c	70;"	d	file:
+PACK64	3rdparty/hmac_sha/sha2.c	90;"	d	file:
+R1_SWITCH_ERROR	mmc.h	29;"	d
+REG_TYPE	lsmmc.c	/^enum REG_TYPE {$/;"	g	file:
+RESTORE_LIBS	Makefile	/^RESTORE_LIBS=$/;"	m
+ROTL	3rdparty/hmac_sha/sha2.c	48;"	d	file:
+ROTR	3rdparty/hmac_sha/sha2.c	47;"	d	file:
+RPMB_MULTI_CMD_MAX_CMDS	mmc_cmds.c	1860;"	d	file:
+SCR	lsmmc.c	/^	SCR,$/;"	e	enum:REG_TYPE	file:
+SHA224_BLOCK_SIZE	3rdparty/hmac_sha/sha2.h	49;"	d
+SHA224_DIGEST_SIZE	3rdparty/hmac_sha/sha2.h	41;"	d
+SHA256_BLOCK_SIZE	3rdparty/hmac_sha/sha2.h	46;"	d
+SHA256_DIGEST_SIZE	3rdparty/hmac_sha/sha2.h	42;"	d
+SHA256_EXP	3rdparty/hmac_sha/sha2.c	116;"	d	file:
+SHA256_F1	3rdparty/hmac_sha/sha2.c	52;"	d	file:
+SHA256_F2	3rdparty/hmac_sha/sha2.c	53;"	d	file:
+SHA256_F3	3rdparty/hmac_sha/sha2.c	54;"	d	file:
+SHA256_F4	3rdparty/hmac_sha/sha2.c	55;"	d	file:
+SHA256_SCR	3rdparty/hmac_sha/sha2.c	104;"	d	file:
+SHA2_H	3rdparty/hmac_sha/sha2.h	39;"	d
+SHA2_TYPES	3rdparty/hmac_sha/sha2.h	52;"	d
+SHA384_BLOCK_SIZE	3rdparty/hmac_sha/sha2.h	48;"	d
+SHA384_DIGEST_SIZE	3rdparty/hmac_sha/sha2.h	43;"	d
+SHA512_BLOCK_SIZE	3rdparty/hmac_sha/sha2.h	47;"	d
+SHA512_DIGEST_SIZE	3rdparty/hmac_sha/sha2.h	44;"	d
+SHA512_EXP	3rdparty/hmac_sha/sha2.c	125;"	d	file:
+SHA512_F1	3rdparty/hmac_sha/sha2.c	57;"	d	file:
+SHA512_F2	3rdparty/hmac_sha/sha2.c	58;"	d	file:
+SHA512_F3	3rdparty/hmac_sha/sha2.c	59;"	d	file:
+SHA512_F4	3rdparty/hmac_sha/sha2.c	60;"	d	file:
+SHA512_SCR	3rdparty/hmac_sha/sha2.c	110;"	d	file:
+SHFR	3rdparty/hmac_sha/sha2.c	46;"	d	file:
+UNPACK32	3rdparty/hmac_sha/sha2.c	62;"	d	file:
+UNPACK64	3rdparty/hmac_sha/sha2.c	78;"	d	file:
+USER_WP_CD_PERM_WP_DIS	mmc_cmds.c	44;"	d	file:
+USER_WP_CLEAR	mmc_cmds.c	49;"	d	file:
+USER_WP_PERM_PSWD_DIS	mmc_cmds.c	43;"	d	file:
+USER_WP_US_PERM_WP_DIS	mmc_cmds.c	45;"	d	file:
+USER_WP_US_PERM_WP_EN	mmc_cmds.c	47;"	d	file:
+USER_WP_US_PWR_WP_DIS	mmc_cmds.c	46;"	d	file:
+USER_WP_US_PWR_WP_EN	mmc_cmds.c	48;"	d	file:
+WPTYPE_NONE	mmc_cmds.c	52;"	d	file:
+WPTYPE_PERM	mmc_cmds.c	55;"	d	file:
+WPTYPE_PWRON	mmc_cmds.c	54;"	d	file:
+WPTYPE_TEMP	mmc_cmds.c	53;"	d	file:
+WP_BLKS_PER_QUERY	mmc_cmds.c	41;"	d	file:
+_GNU_SOURCE	mmc.c	22;"	d	file:
+addr	mmc_cmds.c	/^	u_int16_t addr;$/;"	m	struct:rpmb_frame	file:
+adv_help	mmc.c	/^        char    *adv_help;      \/* advanced help message; from the 2nd line $/;"	m	struct:Command	file:
+bin_to_ascii	lsmmc.c	/^void bin_to_ascii(char *a, char *binstr, int width)$/;"	f
+bin_to_unsigned	lsmmc.c	/^void bin_to_unsigned(unsigned int *u, char *binstr, int width)$/;"	f
+bindir	Makefile	/^bindir = $(prefix)\/bin$/;"	m
+block	3rdparty/hmac_sha/sha2.h	/^    unsigned char block[2 * SHA256_BLOCK_SIZE];$/;"	m	struct:__anon1
+block	3rdparty/hmac_sha/sha2.h	/^    unsigned char block[2 * SHA256_BLOCK_SIZE];$/;"	m	struct:__anon7
+block	3rdparty/hmac_sha/sha2.h	/^    unsigned char block[2 * SHA512_BLOCK_SIZE];$/;"	m	struct:__anon2
+block	3rdparty/hmac_sha/sha2.h	/^    unsigned char block[2 * SHA512_BLOCK_SIZE];$/;"	m	struct:__anon8
+block_count	mmc_cmds.c	/^	u_int16_t block_count;$/;"	m	struct:rpmb_frame	file:
+block_ipad	3rdparty/hmac_sha/hmac_sha2.h	/^    unsigned char block_ipad[SHA224_BLOCK_SIZE];$/;"	m	struct:__anon3
+block_ipad	3rdparty/hmac_sha/hmac_sha2.h	/^    unsigned char block_ipad[SHA224_BLOCK_SIZE];$/;"	m	struct:__anon9
+block_ipad	3rdparty/hmac_sha/hmac_sha2.h	/^    unsigned char block_ipad[SHA256_BLOCK_SIZE];$/;"	m	struct:__anon10
+block_ipad	3rdparty/hmac_sha/hmac_sha2.h	/^    unsigned char block_ipad[SHA256_BLOCK_SIZE];$/;"	m	struct:__anon4
+block_ipad	3rdparty/hmac_sha/hmac_sha2.h	/^    unsigned char block_ipad[SHA384_BLOCK_SIZE];$/;"	m	struct:__anon11
+block_ipad	3rdparty/hmac_sha/hmac_sha2.h	/^    unsigned char block_ipad[SHA384_BLOCK_SIZE];$/;"	m	struct:__anon5
+block_ipad	3rdparty/hmac_sha/hmac_sha2.h	/^    unsigned char block_ipad[SHA512_BLOCK_SIZE];$/;"	m	struct:__anon12
+block_ipad	3rdparty/hmac_sha/hmac_sha2.h	/^    unsigned char block_ipad[SHA512_BLOCK_SIZE];$/;"	m	struct:__anon6
+block_opad	3rdparty/hmac_sha/hmac_sha2.h	/^    unsigned char block_opad[SHA224_BLOCK_SIZE];$/;"	m	struct:__anon3
+block_opad	3rdparty/hmac_sha/hmac_sha2.h	/^    unsigned char block_opad[SHA224_BLOCK_SIZE];$/;"	m	struct:__anon9
+block_opad	3rdparty/hmac_sha/hmac_sha2.h	/^    unsigned char block_opad[SHA256_BLOCK_SIZE];$/;"	m	struct:__anon10
+block_opad	3rdparty/hmac_sha/hmac_sha2.h	/^    unsigned char block_opad[SHA256_BLOCK_SIZE];$/;"	m	struct:__anon4
+block_opad	3rdparty/hmac_sha/hmac_sha2.h	/^    unsigned char block_opad[SHA384_BLOCK_SIZE];$/;"	m	struct:__anon11
+block_opad	3rdparty/hmac_sha/hmac_sha2.h	/^    unsigned char block_opad[SHA384_BLOCK_SIZE];$/;"	m	struct:__anon5
+block_opad	3rdparty/hmac_sha/hmac_sha2.h	/^    unsigned char block_opad[SHA512_BLOCK_SIZE];$/;"	m	struct:__anon12
+block_opad	3rdparty/hmac_sha/hmac_sha2.h	/^    unsigned char block_opad[SHA512_BLOCK_SIZE];$/;"	m	struct:__anon6
+check	Makefile	/^	check = sparse $(CHECKFLAGS)$/;"	m
+check_ambiguity	mmc.c	/^static int check_ambiguity(struct Command *cmd, char **argv){$/;"	f	file:
+check_enhanced_area_total_limit	mmc_cmds.c	/^int check_enhanced_area_total_limit(const char * const device, int fd)$/;"	f
+cid	lsmmc.c	/^	char *cid;$/;"	m	struct:config	file:
+cmds	mmc.c	/^	char	**cmds;		\/* array of subcommands *\/$/;"	m	struct:Command	file:
+commands	mmc.c	/^static struct Command commands[] = {$/;"	v	typeref:struct:Command	file:
+config	lsmmc.c	/^struct config {$/;"	s	file:
+csd	lsmmc.c	/^	char *csd;$/;"	m	struct:config	file:
+ctx_inside	3rdparty/hmac_sha/hmac_sha2.h	/^    sha224_ctx ctx_inside;$/;"	m	struct:__anon3
+ctx_inside	3rdparty/hmac_sha/hmac_sha2.h	/^    sha224_ctx ctx_inside;$/;"	m	struct:__anon9
+ctx_inside	3rdparty/hmac_sha/hmac_sha2.h	/^    sha256_ctx ctx_inside;$/;"	m	struct:__anon10
+ctx_inside	3rdparty/hmac_sha/hmac_sha2.h	/^    sha256_ctx ctx_inside;$/;"	m	struct:__anon4
+ctx_inside	3rdparty/hmac_sha/hmac_sha2.h	/^    sha384_ctx ctx_inside;$/;"	m	struct:__anon11
+ctx_inside	3rdparty/hmac_sha/hmac_sha2.h	/^    sha384_ctx ctx_inside;$/;"	m	struct:__anon5
+ctx_inside	3rdparty/hmac_sha/hmac_sha2.h	/^    sha512_ctx ctx_inside;$/;"	m	struct:__anon12
+ctx_inside	3rdparty/hmac_sha/hmac_sha2.h	/^    sha512_ctx ctx_inside;$/;"	m	struct:__anon6
+ctx_inside_reinit	3rdparty/hmac_sha/hmac_sha2.h	/^    sha224_ctx ctx_inside_reinit;$/;"	m	struct:__anon3
+ctx_inside_reinit	3rdparty/hmac_sha/hmac_sha2.h	/^    sha224_ctx ctx_inside_reinit;$/;"	m	struct:__anon9
+ctx_inside_reinit	3rdparty/hmac_sha/hmac_sha2.h	/^    sha256_ctx ctx_inside_reinit;$/;"	m	struct:__anon10
+ctx_inside_reinit	3rdparty/hmac_sha/hmac_sha2.h	/^    sha256_ctx ctx_inside_reinit;$/;"	m	struct:__anon4
+ctx_inside_reinit	3rdparty/hmac_sha/hmac_sha2.h	/^    sha384_ctx ctx_inside_reinit;$/;"	m	struct:__anon11
+ctx_inside_reinit	3rdparty/hmac_sha/hmac_sha2.h	/^    sha384_ctx ctx_inside_reinit;$/;"	m	struct:__anon5
+ctx_inside_reinit	3rdparty/hmac_sha/hmac_sha2.h	/^    sha512_ctx ctx_inside_reinit;$/;"	m	struct:__anon12
+ctx_inside_reinit	3rdparty/hmac_sha/hmac_sha2.h	/^    sha512_ctx ctx_inside_reinit;$/;"	m	struct:__anon6
+ctx_outside	3rdparty/hmac_sha/hmac_sha2.h	/^    sha224_ctx ctx_outside;$/;"	m	struct:__anon3
+ctx_outside	3rdparty/hmac_sha/hmac_sha2.h	/^    sha224_ctx ctx_outside;$/;"	m	struct:__anon9
+ctx_outside	3rdparty/hmac_sha/hmac_sha2.h	/^    sha256_ctx ctx_outside;$/;"	m	struct:__anon10
+ctx_outside	3rdparty/hmac_sha/hmac_sha2.h	/^    sha256_ctx ctx_outside;$/;"	m	struct:__anon4
+ctx_outside	3rdparty/hmac_sha/hmac_sha2.h	/^    sha384_ctx ctx_outside;$/;"	m	struct:__anon11
+ctx_outside	3rdparty/hmac_sha/hmac_sha2.h	/^    sha384_ctx ctx_outside;$/;"	m	struct:__anon5
+ctx_outside	3rdparty/hmac_sha/hmac_sha2.h	/^    sha512_ctx ctx_outside;$/;"	m	struct:__anon12
+ctx_outside	3rdparty/hmac_sha/hmac_sha2.h	/^    sha512_ctx ctx_outside;$/;"	m	struct:__anon6
+ctx_outside_reinit	3rdparty/hmac_sha/hmac_sha2.h	/^    sha224_ctx ctx_outside_reinit;$/;"	m	struct:__anon3
+ctx_outside_reinit	3rdparty/hmac_sha/hmac_sha2.h	/^    sha224_ctx ctx_outside_reinit;$/;"	m	struct:__anon9
+ctx_outside_reinit	3rdparty/hmac_sha/hmac_sha2.h	/^    sha256_ctx ctx_outside_reinit;$/;"	m	struct:__anon10
+ctx_outside_reinit	3rdparty/hmac_sha/hmac_sha2.h	/^    sha256_ctx ctx_outside_reinit;$/;"	m	struct:__anon4
+ctx_outside_reinit	3rdparty/hmac_sha/hmac_sha2.h	/^    sha384_ctx ctx_outside_reinit;$/;"	m	struct:__anon11
+ctx_outside_reinit	3rdparty/hmac_sha/hmac_sha2.h	/^    sha384_ctx ctx_outside_reinit;$/;"	m	struct:__anon5
+ctx_outside_reinit	3rdparty/hmac_sha/hmac_sha2.h	/^    sha512_ctx ctx_outside_reinit;$/;"	m	struct:__anon12
+ctx_outside_reinit	3rdparty/hmac_sha/hmac_sha2.h	/^    sha512_ctx ctx_outside_reinit;$/;"	m	struct:__anon6
+data	mmc_cmds.c	/^	u_int8_t  data[256];$/;"	m	struct:rpmb_frame	file:
+database	lsmmc.c	/^struct ids_database database[] = {$/;"	v	typeref:struct:ids_database
+dir	lsmmc.c	/^	char *dir;$/;"	m	struct:config	file:
+do_boot_bus_conditions_set	mmc_cmds.c	/^int do_boot_bus_conditions_set(int nargs, char **argv)$/;"	f
+do_cache_ctrl	mmc_cmds.c	/^int do_cache_ctrl(int value, int nargs, char **argv)$/;"	f
+do_cache_dis	mmc_cmds.c	/^int do_cache_dis(int nargs, char **argv)$/;"	f
+do_cache_en	mmc_cmds.c	/^int do_cache_en(int nargs, char **argv)$/;"	f
+do_create_gp_partition	mmc_cmds.c	/^int do_create_gp_partition(int nargs, char **argv)$/;"	f
+do_disable_512B_emulation	mmc_cmds.c	/^int do_disable_512B_emulation(int nargs, char **argv)$/;"	f
+do_enh_area_set	mmc_cmds.c	/^int do_enh_area_set(int nargs, char **argv)$/;"	f
+do_ffu	mmc_cmds.c	/^int do_ffu(int nargs, char **argv)$/;"	f
+do_hwreset	mmc_cmds.c	/^int do_hwreset(int value, int nargs, char **argv)$/;"	f
+do_hwreset_dis	mmc_cmds.c	/^int do_hwreset_dis(int nargs, char **argv)$/;"	f
+do_hwreset_en	mmc_cmds.c	/^int do_hwreset_en(int nargs, char **argv)$/;"	f
+do_read_cid	lsmmc.c	/^int do_read_cid(int argc, char **argv)$/;"	f
+do_read_csd	lsmmc.c	/^int do_read_csd(int argc, char **argv)$/;"	f
+do_read_extcsd	mmc_cmds.c	/^int do_read_extcsd(int nargs, char **argv)$/;"	f
+do_read_scr	lsmmc.c	/^int do_read_scr(int argc, char **argv)$/;"	f
+do_rpmb_op	mmc_cmds.c	/^static int do_rpmb_op(int fd,$/;"	f	file:
+do_rpmb_read_block	mmc_cmds.c	/^int do_rpmb_read_block(int nargs, char **argv)$/;"	f
+do_rpmb_read_counter	mmc_cmds.c	/^int do_rpmb_read_counter(int nargs, char **argv)$/;"	f
+do_rpmb_write_block	mmc_cmds.c	/^int do_rpmb_write_block(int nargs, char **argv)$/;"	f
+do_rpmb_write_key	mmc_cmds.c	/^int do_rpmb_write_key(int nargs, char **argv)$/;"	f
+do_sanitize	mmc_cmds.c	/^int do_sanitize(int nargs, char **argv)$/;"	f
+do_status_get	mmc_cmds.c	/^int do_status_get(int nargs, char **argv)$/;"	f
+do_write_bkops_en	mmc_cmds.c	/^int do_write_bkops_en(int nargs, char **argv)$/;"	f
+do_write_boot_en	mmc_cmds.c	/^int do_write_boot_en(int nargs, char **argv)$/;"	f
+do_write_reliability_set	mmc_cmds.c	/^int do_write_reliability_set(int nargs, char **argv)$/;"	f
+do_writeprotect_boot_get	mmc_cmds.c	/^int do_writeprotect_boot_get(int nargs, char **argv)$/;"	f
+do_writeprotect_boot_set	mmc_cmds.c	/^int do_writeprotect_boot_set(int nargs, char **argv)$/;"	f
+do_writeprotect_user_get	mmc_cmds.c	/^int do_writeprotect_user_get(int nargs, char **argv)$/;"	f
+do_writeprotect_user_set	mmc_cmds.c	/^int do_writeprotect_user_set(int nargs, char **argv)$/;"	f
+ext_csd	lsmmc.c	/^	char *ext_csd;$/;"	m	struct:config	file:
+func	mmc.c	/^	CommandFunction	func;	\/* function which implements the command *\/$/;"	m	struct:Command	file:
+get_hc_erase_grp_size	mmc_cmds.c	/^unsigned int get_hc_erase_grp_size(__u8 *ext_csd)$/;"	f
+get_hc_wp_grp_size	mmc_cmds.c	/^unsigned int get_hc_wp_grp_size(__u8 *ext_csd)$/;"	f
+get_prgname	mmc.c	/^static char *get_prgname(char *programname)$/;"	f	file:
+get_sector_count	mmc_cmds.c	/^unsigned int get_sector_count(__u8 *ext_csd)$/;"	f
+get_size_in_blks	mmc_cmds.c	/^static __u32 get_size_in_blks(int fd)$/;"	f	file:
+get_wp_group_size_in_blks	mmc_cmds.c	/^static int get_wp_group_size_in_blks(__u8 *ext_csd, __u32 *size)$/;"	f	file:
+h	3rdparty/hmac_sha/sha2.h	/^    uint32 h[8];$/;"	m	struct:__anon1
+h	3rdparty/hmac_sha/sha2.h	/^    uint32 h[8];$/;"	m	struct:__anon7
+h	3rdparty/hmac_sha/sha2.h	/^    uint64 h[8];$/;"	m	struct:__anon2
+h	3rdparty/hmac_sha/sha2.h	/^    uint64 h[8];$/;"	m	struct:__anon8
+help	mmc.c	/^	char	*help;		\/* help lines; from the 2nd line onward they $/;"	m	struct:Command	file:
+help	mmc.c	/^static void help(char *np)$/;"	f	file:
+hmac_sha224	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha224(const unsigned char *key, unsigned int key_size,$/;"	f
+hmac_sha224_ctx	3rdparty/hmac_sha/hmac_sha2.h	/^} hmac_sha224_ctx;$/;"	t	typeref:struct:__anon3
+hmac_sha224_ctx	3rdparty/hmac_sha/hmac_sha2.h	/^} hmac_sha224_ctx;$/;"	t	typeref:struct:__anon9
+hmac_sha224_final	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha224_final(hmac_sha224_ctx *ctx, unsigned char *mac,$/;"	f
+hmac_sha224_init	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha224_init(hmac_sha224_ctx *ctx, const unsigned char *key,$/;"	f
+hmac_sha224_reinit	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha224_reinit(hmac_sha224_ctx *ctx)$/;"	f
+hmac_sha224_update	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha224_update(hmac_sha224_ctx *ctx, const unsigned char *message,$/;"	f
+hmac_sha256	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha256(const unsigned char *key, unsigned int key_size,$/;"	f
+hmac_sha256_ctx	3rdparty/hmac_sha/hmac_sha2.h	/^} hmac_sha256_ctx;$/;"	t	typeref:struct:__anon10
+hmac_sha256_ctx	3rdparty/hmac_sha/hmac_sha2.h	/^} hmac_sha256_ctx;$/;"	t	typeref:struct:__anon4
+hmac_sha256_final	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha256_final(hmac_sha256_ctx *ctx, unsigned char *mac,$/;"	f
+hmac_sha256_init	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha256_init(hmac_sha256_ctx *ctx, const unsigned char *key,$/;"	f
+hmac_sha256_reinit	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha256_reinit(hmac_sha256_ctx *ctx)$/;"	f
+hmac_sha256_update	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha256_update(hmac_sha256_ctx *ctx, const unsigned char *message,$/;"	f
+hmac_sha384	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha384(const unsigned char *key, unsigned int key_size,$/;"	f
+hmac_sha384_ctx	3rdparty/hmac_sha/hmac_sha2.h	/^} hmac_sha384_ctx;$/;"	t	typeref:struct:__anon11
+hmac_sha384_ctx	3rdparty/hmac_sha/hmac_sha2.h	/^} hmac_sha384_ctx;$/;"	t	typeref:struct:__anon5
+hmac_sha384_final	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha384_final(hmac_sha384_ctx *ctx, unsigned char *mac,$/;"	f
+hmac_sha384_init	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha384_init(hmac_sha384_ctx *ctx, const unsigned char *key,$/;"	f
+hmac_sha384_reinit	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha384_reinit(hmac_sha384_ctx *ctx)$/;"	f
+hmac_sha384_update	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha384_update(hmac_sha384_ctx *ctx, const unsigned char *message,$/;"	f
+hmac_sha512	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha512(const unsigned char *key, unsigned int key_size,$/;"	f
+hmac_sha512_ctx	3rdparty/hmac_sha/hmac_sha2.h	/^} hmac_sha512_ctx;$/;"	t	typeref:struct:__anon12
+hmac_sha512_ctx	3rdparty/hmac_sha/hmac_sha2.h	/^} hmac_sha512_ctx;$/;"	t	typeref:struct:__anon6
+hmac_sha512_final	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha512_final(hmac_sha512_ctx *ctx, unsigned char *mac,$/;"	f
+hmac_sha512_init	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha512_init(hmac_sha512_ctx *ctx, const unsigned char *key,$/;"	f
+hmac_sha512_reinit	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha512_reinit(hmac_sha512_ctx *ctx)$/;"	f
+hmac_sha512_update	3rdparty/hmac_sha/hmac_sha2.c	/^void hmac_sha512_update(hmac_sha512_ctx *ctx, const unsigned char *message,$/;"	f
+id	lsmmc.c	/^	int id;$/;"	m	struct:ids_database	file:
+ids_database	lsmmc.c	/^struct ids_database {$/;"	s	file:
+idsfile	lsmmc.c	/^	char *idsfile;$/;"	m	struct:config	file:
+interface	lsmmc.c	/^	char **interface;$/;"	m	struct:config	file:
+interfaces	lsmmc.c	/^	int interfaces;$/;"	m	struct:config	file:
+is_blockaddresed	mmc_cmds.c	/^int is_blockaddresed(__u8 *ext_csd)$/;"	f
+key_mac	mmc_cmds.c	/^	u_int8_t  key_mac[32];$/;"	m	struct:rpmb_frame	file:
+len	3rdparty/hmac_sha/sha2.h	/^    unsigned int len;$/;"	m	struct:__anon1
+len	3rdparty/hmac_sha/sha2.h	/^    unsigned int len;$/;"	m	struct:__anon2
+len	3rdparty/hmac_sha/sha2.h	/^    unsigned int len;$/;"	m	struct:__anon7
+len	3rdparty/hmac_sha/sha2.h	/^    unsigned int len;$/;"	m	struct:__anon8
+lsmmc_free	lsmmc.c	/^void lsmmc_free(struct config *config)$/;"	f
+lsmmc_main	lsmmc.c	/^int lsmmc_main(struct config *config, int argc, char **argv)$/;"	f
+main	3rdparty/hmac_sha/hmac_sha2.c	/^int main(void)$/;"	f
+main	3rdparty/hmac_sha/sha2.c	/^int main(void)$/;"	f
+main	mmc.c	/^int main(int ac, char **av )$/;"	f
+manufacturer	lsmmc.c	/^	char *manufacturer;$/;"	m	struct:ids_database	file:
+mmc_ids	lsmmc.c	/^	char **mmc_ids;$/;"	m	struct:config	file:
+nargs	mmc.c	/^	int	nargs;		\/* if == 999, any number of arguments$/;"	m	struct:Command	file:
+ncmds	mmc.c	/^	int	ncmds;		\/* number of subcommand *\/$/;"	m	struct:Command	file:
+nonce	mmc_cmds.c	/^	u_int8_t  nonce[16];$/;"	m	struct:rpmb_frame	file:
+objects	Makefile	/^objects = \\$/;"	m
+offsetof	mmc_cmds.c	38;"	d	file:
+parse_args	mmc.c	/^static int parse_args(int argc, char **argv,$/;"	f	file:
+parse_bin	lsmmc.c	/^void parse_bin(char *hexstr, char *fmt, ...)$/;"	f
+parse_ids	lsmmc.c	/^int parse_ids(struct config *config)$/;"	f
+parse_opts	lsmmc.c	/^int parse_opts(int argc, char **argv, struct config *config)$/;"	f
+power_class_consumption	lsmmc.c	/^char *power_class_consumption(unsigned int id, bool volt360)$/;"	f
+prefix	Makefile	/^prefix ?= \/usr\/local$/;"	m
+prepare_args	mmc.c	/^static int prepare_args(int *ac, char ***av, char *prgname, struct Command *cmd ){$/;"	f	file:
+print_help	mmc.c	/^static void print_help(char *programname, struct Command *cmd, int helptype)$/;"	f	file:
+print_info	lsmmc.c	/^void print_info(struct config *config, char *type,$/;"	f
+print_mmc_cid	lsmmc.c	/^void print_mmc_cid(struct config *config, char *cid)$/;"	f
+print_mmc_csd	lsmmc.c	/^void print_mmc_csd(struct config *config, char *csd)$/;"	f
+print_sd_cid	lsmmc.c	/^void print_sd_cid(struct config *config, char *cid)$/;"	f
+print_sd_csd	lsmmc.c	/^void print_sd_csd(struct config *config, char *csd)$/;"	f
+print_sd_scr	lsmmc.c	/^void print_sd_scr(struct config *config, char *scr)$/;"	f
+print_wp_status	mmc_cmds.c	/^static void print_wp_status(__u32 wp_sizeblks, __u32 start_group,$/;"	f	file:
+print_writeprotect_boot_status	mmc_cmds.c	/^static void print_writeprotect_boot_status(__u8 *ext_csd)$/;"	f	file:
+process_dir	lsmmc.c	/^int process_dir(struct config *config, enum REG_TYPE reg)$/;"	f
+progs	Makefile	/^progs = mmc$/;"	m
+prot_desc	mmc_cmds.c	/^static char *prot_desc[] = {$/;"	v	file:
+read_extcsd	mmc_cmds.c	/^int read_extcsd(int fd, __u8 *ext_csd)$/;"	f
+read_file	lsmmc.c	/^char *read_file(char *name)$/;"	f
+req_resp	mmc_cmds.c	/^	u_int16_t req_resp;$/;"	m	struct:rpmb_frame	file:
+result	mmc_cmds.c	/^	u_int16_t result;$/;"	m	struct:rpmb_frame	file:
+rpmb_frame	mmc_cmds.c	/^struct rpmb_frame {$/;"	s	file:
+rpmb_op_type	mmc_cmds.c	/^enum rpmb_op_type {$/;"	g	file:
+rpmb_read_counter	mmc_cmds.c	/^int rpmb_read_counter(int dev_fd, unsigned int *cnt)$/;"	f
+scr	lsmmc.c	/^	char *scr;$/;"	m	struct:config	file:
+sd_ids	lsmmc.c	/^	char **sd_ids;$/;"	m	struct:config	file:
+send_status	mmc_cmds.c	/^int send_status(int fd, __u32 *response)$/;"	f
+send_write_protect_type	mmc_cmds.c	/^static int send_write_protect_type(int fd, __u32 blk_addr, __u64 *group_bits)$/;"	f	file:
+set_partitioning_setting_completed	mmc_cmds.c	/^int set_partitioning_setting_completed(int dry_run, const char * const device,$/;"	f
+set_single_cmd	mmc_cmds.c	/^static inline void set_single_cmd(struct mmc_ioc_cmd *ioc, __u32 opcode,$/;"	f	file:
+set_write_protect	mmc_cmds.c	/^static int set_write_protect(int fd, __u32 blk_addr, int on_off)$/;"	f	file:
+sha224	3rdparty/hmac_sha/sha2.c	/^void sha224(const unsigned char *message, unsigned int len,$/;"	f
+sha224_ctx	3rdparty/hmac_sha/sha2.h	/^typedef sha256_ctx sha224_ctx;$/;"	t
+sha224_final	3rdparty/hmac_sha/sha2.c	/^void sha224_final(sha224_ctx *ctx, unsigned char *digest)$/;"	f
+sha224_h0	3rdparty/hmac_sha/sha2.c	/^uint32 sha224_h0[8] =$/;"	v
+sha224_init	3rdparty/hmac_sha/sha2.c	/^void sha224_init(sha224_ctx *ctx)$/;"	f
+sha224_update	3rdparty/hmac_sha/sha2.c	/^void sha224_update(sha224_ctx *ctx, const unsigned char *message,$/;"	f
+sha256	3rdparty/hmac_sha/sha2.c	/^void sha256(const unsigned char *message, unsigned int len, unsigned char *digest)$/;"	f
+sha256_ctx	3rdparty/hmac_sha/sha2.h	/^} sha256_ctx;$/;"	t	typeref:struct:__anon1
+sha256_ctx	3rdparty/hmac_sha/sha2.h	/^} sha256_ctx;$/;"	t	typeref:struct:__anon7
+sha256_final	3rdparty/hmac_sha/sha2.c	/^void sha256_final(sha256_ctx *ctx, unsigned char *digest)$/;"	f
+sha256_h0	3rdparty/hmac_sha/sha2.c	/^uint32 sha256_h0[8] =$/;"	v
+sha256_init	3rdparty/hmac_sha/sha2.c	/^void sha256_init(sha256_ctx *ctx)$/;"	f
+sha256_k	3rdparty/hmac_sha/sha2.c	/^uint32 sha256_k[64] =$/;"	v
+sha256_transf	3rdparty/hmac_sha/sha2.c	/^void sha256_transf(sha256_ctx *ctx, const unsigned char *message,$/;"	f
+sha256_update	3rdparty/hmac_sha/sha2.c	/^void sha256_update(sha256_ctx *ctx, const unsigned char *message,$/;"	f
+sha384	3rdparty/hmac_sha/sha2.c	/^void sha384(const unsigned char *message, unsigned int len,$/;"	f
+sha384_ctx	3rdparty/hmac_sha/sha2.h	/^typedef sha512_ctx sha384_ctx;$/;"	t
+sha384_final	3rdparty/hmac_sha/sha2.c	/^void sha384_final(sha384_ctx *ctx, unsigned char *digest)$/;"	f
+sha384_h0	3rdparty/hmac_sha/sha2.c	/^uint64 sha384_h0[8] =$/;"	v
+sha384_init	3rdparty/hmac_sha/sha2.c	/^void sha384_init(sha384_ctx *ctx)$/;"	f
+sha384_update	3rdparty/hmac_sha/sha2.c	/^void sha384_update(sha384_ctx *ctx, const unsigned char *message,$/;"	f
+sha512	3rdparty/hmac_sha/sha2.c	/^void sha512(const unsigned char *message, unsigned int len,$/;"	f
+sha512_ctx	3rdparty/hmac_sha/sha2.h	/^} sha512_ctx;$/;"	t	typeref:struct:__anon2
+sha512_ctx	3rdparty/hmac_sha/sha2.h	/^} sha512_ctx;$/;"	t	typeref:struct:__anon8
+sha512_final	3rdparty/hmac_sha/sha2.c	/^void sha512_final(sha512_ctx *ctx, unsigned char *digest)$/;"	f
+sha512_h0	3rdparty/hmac_sha/sha2.c	/^uint64 sha512_h0[8] =$/;"	v
+sha512_init	3rdparty/hmac_sha/sha2.c	/^void sha512_init(sha512_ctx *ctx)$/;"	f
+sha512_k	3rdparty/hmac_sha/sha2.c	/^uint64 sha512_k[80] =$/;"	v
+sha512_transf	3rdparty/hmac_sha/sha2.c	/^void sha512_transf(sha512_ctx *ctx, const unsigned char *message,$/;"	f
+sha512_update	3rdparty/hmac_sha/sha2.c	/^void sha512_update(sha512_ctx *ctx, const unsigned char *message,$/;"	f
+sleep_consumption	lsmmc.c	/^char *sleep_consumption(unsigned int id)$/;"	f
+speed_class_name	lsmmc.c	/^char speed_class_name(unsigned char id)$/;"	f
+speed_class_speed	lsmmc.c	/^char *speed_class_speed(unsigned char id, bool ddr)$/;"	f
+split_command	mmc.c	/^static int split_command(char *cmd, char ***commands)$/;"	f	file:
+stuff	mmc_cmds.c	/^	u_int8_t  stuff[196];$/;"	m	struct:rpmb_frame	file:
+test	3rdparty/hmac_sha/hmac_sha2.c	/^void test(const char *vector, unsigned char *digest,$/;"	f
+test	3rdparty/hmac_sha/sha2.c	/^void test(const char *vector, unsigned char *digest,$/;"	f
+to_binstr	lsmmc.c	/^char *to_binstr(char *hexstr)$/;"	f
+tot_len	3rdparty/hmac_sha/sha2.h	/^    unsigned int tot_len;$/;"	m	struct:__anon1
+tot_len	3rdparty/hmac_sha/sha2.h	/^    unsigned int tot_len;$/;"	m	struct:__anon2
+tot_len	3rdparty/hmac_sha/sha2.h	/^    unsigned int tot_len;$/;"	m	struct:__anon7
+tot_len	3rdparty/hmac_sha/sha2.h	/^    unsigned int tot_len;$/;"	m	struct:__anon8
+type	lsmmc.c	/^	char *type;$/;"	m	struct:config	file:
+type	lsmmc.c	/^	char *type;$/;"	m	struct:ids_database	file:
+uint32	3rdparty/hmac_sha/sha2.h	/^typedef unsigned int  uint32;$/;"	t
+uint64	3rdparty/hmac_sha/sha2.h	/^typedef unsigned long long uint64;$/;"	t
+uint8	3rdparty/hmac_sha/sha2.h	/^typedef unsigned char uint8;$/;"	t
+usage	lsmmc.c	/^void usage(void)$/;"	f
+verb	mmc.c	/^	char	*verb;		\/* verb *\/$/;"	m	struct:Command	file:
+verbose	lsmmc.c	/^	bool verbose;$/;"	m	struct:config	file:
+write_counter	mmc_cmds.c	/^	u_int32_t write_counter;$/;"	m	struct:rpmb_frame	file:
+write_extcsd_value	mmc_cmds.c	/^int write_extcsd_value(int fd, __u8 index, __u8 value)$/;"	f
